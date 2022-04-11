@@ -1,7 +1,7 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 #쿠싱증후군
-html = urlopen("https://terms.naver.com/entry.naver?docId=6043716&cid=51362&categoryId=51362") #희귀질환정보
+html = urlopen("https://terms.naver.com/entry.naver?docId=6043716&cid=51362&categoryId=51362") #희귀질환정보(뇌하수체-의존 부신피질기능항진증)
 bsObject = BeautifulSoup(html, "html.parser")
 
 #for link in bsObject.find_all('h3'):
