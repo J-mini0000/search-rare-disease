@@ -32,7 +32,16 @@ data_wordlst=[] #전처리된 증상Data 들어갈 빈배열 선언
 dataPrep(cf0),dataPrep(cf1),dataPrep(cf2),dataPrep(cf3),dataPrep(cf4),dataPrep(cf5),dataPrep(cf6),dataPrep(cf7),dataPrep(cf8),dataPrep(cf9),
 
 
-disease = pd.DataFrame(columns = ['Cushing\'s syndrome','Multiplescl','MoyaMoya','IPF'])
+disease = pd.DataFrame(columns = ['쿠싱증후군', #열
+                                  '크론병',
+                                  '다발성 경화증',
+                                  '모야모야병',
+                                  '특발성 폐섬유화증',
+                                  '길렝-바레 증후군',
+                                  '혈우병(제 8,9인자 결함)',
+                                  '확장성 심근병증',
+                                  '전신홍반루푸스',
+                                  '중증근무력증'])
 
 bigger=0
 biggerlst=data_wordlst[0]
@@ -51,11 +60,17 @@ for i in range(0,len(data_wordlst)):
             data_wordlst[i].append(None)
 
 for k in range(bigger):
-    insert = {'Cushing\'s syndrome': data_wordlst[0][k],
-              'Multiplescl':data_wordlst[1][k],
-              'MoyaMoya':data_wordlst[2][k],
-              'IPF':data_wordlst[3][k]}
-    disease = disease.append(insert, ignore_index=True)
+    insert = {'쿠싱증후군': data_wordlst[0][k],
+              '크론병':data_wordlst[1][k],
+              '다발성 경화증':data_wordlst[2][k],
+              '모야모야병':data_wordlst[3][k],
+              '특발성 폐섬유화증':data_wordlst[4][k],
+              '길렝-바레 증후군':data_wordlst[5][k],
+              '혈우병(제 8,9인자 결함)':data_wordlst[6][k],
+              '확장성 심근병증':data_wordlst[7][k],
+              '전신홍반루푸스':data_wordlst[8][k],
+              '중증근무력증':data_wordlst[9][k]}
 
+    disease = disease.append(insert, ignore_index=True)
 disease.to_csv('C:/Users/hw499/PycharmProjects/CapstoneDesign/disease.csv',sep=',',na_rep='NaN')
 print(disease)
