@@ -1,0 +1,112 @@
+<h3 class="stress" id="TABLE_OF_CONTENT3">증상</h3>
+<p class="txt">다발성 경화증은 재발이 반복되고 병적인 변화가 중추신경계의 여러 곳에 산재되어 나타나는 특성이 있다. 즉, 다발성 경화증에 특이적인 증상이 따로 있는 것이 아니며, 병적인 증상이 나타나는 위치에 따라 질환의 증상 및 징후가 다양하게 나타난다. 흔히 급성이나 아급성으로 나타났다가 서서히 호전되는 경과를 보인다.<br/><br/>가장 흔한 증상은 감각증상(초기 증상)과 운동장애이다. 감각증상은 무감각, 얼얼한 느낌, 화끈거림 등의 이상감각의 형태로 나타난다. 간혹 턱을 강하게 가슴 앞으로 당길 때 등을 타고 아래로 뻗치는 이상감각이 있을 수 있다. 운동장애는 병적인 증상이 나타난 위치에 따라 반신마비, 하반신마비 또는 사지마비 등이 다양하게 나타날 수 있다. 우리나라를 비롯한 아시아에서는 척수 침투에 의한 하지마비가 가장 흔하고 이로 인한 배뇨, 배변, 성기능 장애도 상대적으로 흔하게 나타난다.<br/><br/>한쪽 시각신경염이 다발성 경화증의 초기 증상으로 흔히 발생하고, 질환이 경과되면서 동반되는 경우도 매우 흔하다. 대뇌는 병적인 변화가 가장 잘 생기는 곳이지만, 초기에는 이로 인해 나타나는 증상이 대부분 뚜렷하지 않다. 그러나 우울증, 기억력 장애가 나타날 수 있고, 질환이 진행되면 인지기능장애가 나타난다. 다발성 경화증 환자의 다수가 피로를 호소한다.<br/><br/>동양인에게 나타나는 다발성 경화증은 서양인에게 나타나는 형태에 비해 발병 빈도가 더 낮고 임상 양상도 다르다. 발병 당시 시각신경이나 척수의 침범이 많고 심한 증상이 나타나는 경우가 서양인의 다발성 경화증보다 더 흔하다.<br/><br/>- 이상감각 증상: 무감각, 얼얼한 느낌, 화끈거림(국소적으로 나타남)<br/>- 운동 장애: 반신마비, 하반신마비, 사지마비(하지마비에 동반하여 배뇨, 배변, 성기능 장애)<br/>- 시각신경염: 통증이 동반된 시력 저하, 시야 흐림<br/><br/>다발성 경화증은 모든 연령층에서 발생할 수 있지만, 주로 20~40세에 가장 많이 발생하고, 10세 이전이나 60세 이후에는 발병이 드물다.  
+<div class="thmb c">
+<a href="/imageDetail.naver?docId=926680&amp;imageUrl=https%3A%2F%2Fdbscthumb-phinf.pstatic.net%2F1983_000_3%2F20190318183406474_YE4TUO0OU.jpg%2Fi1_AA000105_169.jpg%3Ftype%3Dm4500_4500_fst_n%26wm%3DY" onclick="clickcr(this, 'bdy.imgal', '', '', event);" target="_blank"><img alt="다발성 반(plaque)" data-font-image="false" data-seq="2" data-title="다발성 반(plaque)" desc="" hastitle="N" height="359" origin_height="359" origin_src="https://dbscthumb-phinf.pstatic.net/1983_000_3/20190318183406474_YE4TUO0OU.jpg/i1_AA000105_169.jpg?type=m4500_4500_fst_n&amp;wm=Y" origin_width="337" source="서울대학교병원 의학정보" src="https://dbscthumb-phinf.pstatic.net/1983_000_3/20190318183406474_YE4TUO0OU.jpg/i1_AA000105_169.jpg?type=w530_fst_n&amp;wm=Y" width="337"/></a>
+<p class="thmb_desc" style="width:332px"><strong class="c-title">다발성 반(plaque)</strong>
+</p></div>
+</p>
+<dl class="on" id="detail02">
+<dt>
+<span>증상 <strong>Symptoms</strong></span>
+<em><a class="rdinfotrg" href="#Symptoms_info"><img alt="상세내용닫기" src="/cdchelp/img/contents/rdinfo_btn_up.jpg"/></a></em>
+</dt>
+<dd class="edtTxt" style="display:none;">&lt;p&gt;다발성 경화증의 질병 진행과정은 예측하기가 어렵고, 증상 또한 개개인에 따라 매우 다양하게 나타납니다.&lt;/p&gt;
+
+&lt;p&gt;지난 10년간, 연구자들은 몇 개의 유형으로 다발성 경화증을 분류했습니다. 이러한 분류는 원래 연구를 위한 실험 설계목적으로 구분한 것이었지만, 종종 치료 선택을 결정하는 목적으로도 사용합니다.&lt;/p&gt;
+
+&lt;h4&gt;1. 다발성 경화증의 유형&lt;/h4&gt;
+
+&lt;h5&gt;1) 재발 완화형 다발성 경화증(Relapsing Remitting MS: RRMS)&lt;/h5&gt;
+
+&lt;p&gt;증상이 악화(재발기)되고 완화(완화기)되는 증상이 반복적으로 나타나며, 재발하는 시기를 예측하기가 어렵습니다. 재발하는 동안 기존에 나타났던 증상들이 악화될 수 있고, 새로운 증상이 나타날 수도 있습니다. 그러나 완화되는 동안은 증상이 완전히 혹은 부분적으로 사라집니다.&lt;br /&gt;
+이와 같이 재발기와 완화기는 뚜렷하게 구분되며, 계단식으로 진행됩니다. 다발성 경화증의 초기 진단의 약 70~75%가 이후에 재발완화 다발성경화증으로 분류됩니다.&lt;/p&gt;
+
+&lt;h5&gt;2) 2차 진행형 다발성 경화증(Secondary-Progressive MS: SPMS)&lt;/h5&gt;
+
+&lt;p&gt;처음에는 재발 완화형 다발성 경화증(RRMS)으로 시작되어 2차 진행형 다발성 경화증(SPMS)으로 진행됩니다. 재발되는 시기, 증상이 완화되는 시기, 안정되는 시기가 나타나며, 질병이 진행됨에 따라 신경기능은 점차 소실됩니다. 처음에 재발 완화형 다발성 경화증(RRMS)으로 진단을 받은 환자 중 10세 이전에 2차 진행형 다발성 경화증(SPMS)으로 진행되는 경우가 약 50%이상이고, 90% 정도가 25세 이전에 이 질환으로 진행됩니다.&lt;/p&gt;
+
+&lt;h5&gt;3) 원발성 진행형 다발성 경화증(Primary Progressive MS: PPMS)&lt;/h5&gt;
+
+&lt;p&gt;다발성 경화증 환자의 약 15%에게서 나타나며, 느리게 증상이 진행되고 서서히 악화됩니다. 완화기와 재발기는 뚜렷하게 구분되지 않으며, 진행 속도의 차이는 있으나 시간이 흐르면서 점차적으로 기능이 소실되게 됩니다.&lt;/p&gt;
+
+&lt;h5&gt;4) 진행성 재발형 다발성 경화증(Progressive-Relapsing MS: PRMS)&lt;/h5&gt;
+
+&lt;p&gt;다발성 경화증 환자의 약 6-10%에게서 나타나며 꾸준히 진행됩니다. 갑작스런 재발이 일어난 후 완전히 회복되거나 부분적으로 회복될 수 있습니다. 재발 완화형 다발성 경화증(RRMS)과는 달리 재발기와 재발기 사이에도 질병이 진행됩니다.&lt;/p&gt;
+
+&lt;h4&gt;2. 다발성 경화증의 부위별 증상&lt;/h4&gt;
+
+&lt;h5&gt;1) 눈&lt;/h5&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;시신경염 : 시신경의 염증으로 시력의 소실이 일어나는 질병입니다.&lt;/li&gt;
+	&lt;li&gt;&lt;strong style="font-weight:normal"&gt;안구진탕&lt;/strong&gt;증 : 무의식적으로 빠르고 리듬감 있는 눈의 움직임이 나타납니다.&lt;/li&gt;
+	&lt;li&gt;시야가 혼탁해 지며, 드물기는 하지만 시력을 잃게 되는 경우도 있습니다.&lt;/li&gt;
+	&lt;li&gt;한개의 사물이 둘로 보이는 복시(Diplopia)가 나타납니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5&gt;2) 감각 및 운동마비&lt;/h5&gt;
+
+&lt;h6&gt;(1) 감각계 증상&lt;/h6&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;감각을 느끼지 못합니다.&lt;/li&gt;
+	&lt;li&gt;얼얼한 느낌이 있습니다.&lt;/li&gt;
+	&lt;li&gt;화끈거림 증상이 있습니다.&lt;/li&gt;
+	&lt;li&gt;바늘로 찌르는듯한 느낌이 있습니다.&lt;/li&gt;
+	&lt;li&gt;레르미테 증상(Lhermittes syndrome): 머리를 갑자기 앞으로 숙일 때에 등에서 다리로 내려가는 전기를 맞은듯한 충격(electric like shocks)이 발생합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6&gt;(2) 운동장애 증상&lt;/h6&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;편마비 : 오른쪽이나 왼쪽 중 어느 한쪽의 팔, 다리 또는 얼굴이 마비된 상태입니다.&lt;/li&gt;
+	&lt;li&gt;양측 하지마비 : 오른쪽과 왼쪽, 양쪽의 다리부위가 마비된 상태입니다.&lt;/li&gt;
+	&lt;li&gt;사지마비 : 몸통과 양쪽 팔과 다리가 마비된 상태입니다.&lt;/li&gt;
+	&lt;li&gt;균형감각의 소실 : 자주 넘어지거나 어지럼증을 호소할 수 있습니다.&lt;/li&gt;
+	&lt;li&gt;불안정한 걸음걸이가 나타납니다.&lt;/li&gt;
+	&lt;li&gt;어지럼증이 발생합니다.&lt;/li&gt;
+	&lt;li&gt;근육의 떨림(진전: Tremor)이 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5&gt;3) 언어&lt;/h5&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;말하는 속도가 느리고 말이 어눌해집니다.&lt;/li&gt;
+	&lt;li&gt;말더듬이 발생합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5&gt;4) 방광과 소화관&lt;/h5&gt;
+
+&lt;h6&gt;(1) 방광&lt;/h6&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;소변을 자주 보는 빈뇨가 나타납니다.&lt;/li&gt;
+	&lt;li&gt;절박뇨 또는 절박요실금 : 소변이 마려우면 참지 못하고 의지와 관계없이 소변이 나올 수 있습니다.&lt;/li&gt;
+	&lt;li&gt;잔뇨감 : 소변을 방금 보았음에도 불구하고 또 소변을 보고 싶은 느낌이 듭니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6&gt;(2) 소화관&lt;/h6&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;변비&lt;/li&gt;
+	&lt;li&gt;대변을 참지 못하고 지리는 변실금이 나타납니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5&gt;5) 인지기능과 감정&lt;/h5&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;기억력 장애가 있습니다.&lt;/li&gt;
+	&lt;li&gt;우울증이 발생합니다.&lt;/li&gt;
+	&lt;li&gt;단기기억의 소실 : 방금 전 내용을 기억하지 못합니다.&lt;/li&gt;
+	&lt;li&gt;집중력, 이해력, 판단력이 약해집니다.&lt;/li&gt;
+	&lt;li&gt;질환이 진행이 되면 인지장애(Cognitive dysfunction)가 나타납니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5&gt;6) 기타&lt;/h5&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;우토프 징후(Uhthoff&amp;rsquo;s sign) : 체온이 높게 올라갈 경우에 저림(Numbness), 쇠약(Weakness), 시력 손상 등의 증상이 일시적으로 나타나며, 이러한 현상은 뜨거운 물로 목욕을 하거나 운동 후 또는 열이 난 후 발생할 수 있습니다.&lt;/li&gt;
+	&lt;li&gt;연하곤란(Dysphagia): 음식이나 침을 삼키기가 어려워집니다.&lt;/li&gt;
+&lt;/ul&gt;
+</dd>
+</dl>
