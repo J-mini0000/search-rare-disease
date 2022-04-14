@@ -31,6 +31,7 @@ for exel in crd:
     disease.append(exel)
 f.close()
 print(len(disease))
+
 for i in range(0,len(inS_worddata)):
     print("ins~[i]",inS_worddata[i])
     for j in range(0,len(disease[0])-1): #1~386
@@ -38,7 +39,9 @@ for i in range(0,len(inS_worddata)):
             print('%d'%(k),inS_worddata[i] == disease[k][j])
             if (inS_worddata[i] == disease[k][j]):
                 disease[len(disease)-1][j]=int(disease[len(disease)-1][j])+1
+
 result = pd.DataFrame(disease)
+print('result:',result)
 result.to_csv('./result.csv', index=False, sep=',', na_rep='NaN')
 print('disease:',disease,
       '\nlen(disease)',len(disease))
