@@ -18,16 +18,16 @@ def dataPrep(openfile):
     # data_wordlst=[data_word,data_word1,data_word2,data_word3...]
     return b
 
-cf0 = open("C:/Users/hw499/PycharmProjects/CapstoneDesign/ SymptomFile/Cushing's syndrome symptomIFile.txt", 'r', encoding='utf-8') #txt파일 열어 읽기
-cf1 = open("C:/Users/hw499/PycharmProjects/CapstoneDesign/ SymptomFile/Crohn's disease.txt", 'r', encoding='utf-8')
-cf2 = open("C:/Users/hw499/PycharmProjects/CapstoneDesign/ SymptomFile/multiple sclerosis.txt", 'r', encoding='utf-8')
-cf3 = open("C:/Users/hw499/PycharmProjects/CapstoneDesign/ SymptomFile/MoyaMoya.txt", 'r', encoding='utf-8')
-cf4 = open("C:/Users/hw499/PycharmProjects/CapstoneDesign/ SymptomFile/Idiopathic pulmonary fibrosis.txt", 'r', encoding='utf-8')
-cf5 = open("C:/Users/hw499/PycharmProjects/CapstoneDesign/ SymptomFile/Guillian Barre syndrome.txt", 'r', encoding='utf-8')
-cf6 = open("C:/Users/hw499/PycharmProjects/CapstoneDesign/ SymptomFile/Haemophilia.txt", 'r', encoding='utf-8')
-cf7 = open("C:/Users/hw499/PycharmProjects/CapstoneDesign/ SymptomFile/dilated cardiomyopathy.txt", 'r', encoding='utf-8')
-cf8 = open("C:/Users/hw499/PycharmProjects/CapstoneDesign/ SymptomFile/Systemic lupus erythematosus.txt", 'r', encoding='utf-8')
-cf9 = open("C:/Users/hw499/PycharmProjects/CapstoneDesign/ SymptomFile/myasthenia gravis.txt", 'r', encoding='utf-8')
+cf0 = open("./SymptomFile/Cushing's syndrome symptomIFile.txt", 'r', encoding='utf-8') #txt파일 열어 읽기
+cf1 = open("./SymptomFile/Crohn's disease.txt", 'r', encoding='utf-8')
+cf2 = open("./SymptomFile/multiple sclerosis.txt", 'r', encoding='utf-8')
+cf3 = open("./SymptomFile/MoyaMoya.txt", 'r', encoding='utf-8')
+cf4 = open("./SymptomFile/Idiopathic pulmonary fibrosis.txt", 'r', encoding='utf-8')
+cf5 = open("./SymptomFile/Guillian Barre syndrome.txt", 'r', encoding='utf-8')
+cf6 = open("./SymptomFile/Haemophilia.txt", 'r', encoding='utf-8')
+cf7 = open("./SymptomFile/dilated cardiomyopathy.txt", 'r', encoding='utf-8')
+cf8 = open("./SymptomFile/Systemic lupus erythematosus.txt", 'r', encoding='utf-8')
+cf9 = open("./SymptomFile/myasthenia gravis.txt", 'r', encoding='utf-8')
 
 data_wordlst=[] #전처리된 증상Data 들어갈 빈배열 선언
 
@@ -79,5 +79,5 @@ for k in range(bigger+1):
               '중증근무력증':data_wordlst[9][k]}
 
     disease = disease.append(insert, ignore_index=True)
-disease.to_csv('C:/Users/hw499/PycharmProjects/CapstoneDesign/disease.csv',index=False,sep=',',na_rep='NaN')
+disease.to_csv('./disease.csv', index=False, sep=',', na_rep='NaN')
 print(disease)

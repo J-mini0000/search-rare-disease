@@ -1,7 +1,8 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
-#중증근무력증
-html = urlopen("https://terms.naver.com/entry.naver?docId=926699&cid=51007&categoryId=51007") #서울대학교병원 의학정보
+import os
+#전신홍반루푸스
+html = urlopen("https://terms.naver.com/entry.naver?docId=926626&cid=51007&categoryId=51007") #서울대학교병원 의학정보
 bsObject = BeautifulSoup(html, "html.parser")
 
 for link1 in bsObject.find_all('h3',{"id":"TABLE_OF_CONTENT3"}):
@@ -17,7 +18,7 @@ for i in range(symptomI,causationI):
     a.append(str(bsObject)[i])
 
 html = urlopen(
-    "https://helpline.kdca.go.kr/cdchelp/ph/rdiz/selectRdizInfDetail.do?menu=A0100&pageIndex=1&fixRdizInfTab=&rdizCd=RA201810623&schKor=&schEng=&schCcd=&schGuBun=dizNm&schText=%EC%A4%91%EC%A6%9D%EA%B7%BC%EB%AC%B4%EB%A0%A5%EC%A6%9D&schSort=kcdCd&schOrder=desc"
+    "https://helpline.kdca.go.kr/cdchelp/ph/rdiz/selectRdizInfDetail.do?menu=A0100&pageIndex=1&fixRdizInfTab=&rdizCd=RA201810009&schKor=&schEng=&schCcd=&schGuBun=dizNm&schText=%EB%A3%A8%ED%91%B8%EC%8A%A4&schSort=kcdCd&schOrder=desc"
 )# 질병 관리청 헬프라인
 bsObject = BeautifulSoup(html, "html.parser")
 print(link1) #증상
@@ -26,6 +27,6 @@ for link1 in bsObject.select('#detail02'):
 for link2 in bsObject.select('table.dic_veiwT tbody tr td pre'):
     a.append(str(link2))
 
-with open("C:/Users/hw499/PycharmProjects/CapstoneDesign/ SymptomFile/myasthenia gravis.txt", "w", encoding='UTF=8') as symptomIFile:
+with open(dir+"/Systemic lupus erythematosus.txt", "w", encoding='UTF=8') as symptomIFile:
     for text in a:
         symptomIFile.write(text)

@@ -1,5 +1,6 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
+import os
 #확장성 심근병증
 html = urlopen("https://terms.naver.com/entry.naver?docId=926916&cid=51007&categoryId=51007") #서울대학교병원 의학정보
 bsObject = BeautifulSoup(html, "html.parser")
@@ -40,6 +41,6 @@ print(link1) #증상
 for link1 in bsObject.select('#detail02'):
     a.append(str(link1))
 
-with open("C:/Users/hw499/PycharmProjects/CapstoneDesign/ SymptomFile/dilated cardiomyopathy.txt", "w", encoding='UTF=8') as symptomIFile:
+with open(dir+"/SymptomFile/dilated cardiomyopathy.txt", "w", encoding='UTF=8') as symptomIFile:
     for text in a:
         symptomIFile.write(text)
