@@ -57,16 +57,16 @@ for i in range(0,len(data_wordlst)):                    #data_wordlst의 원소�
 
 for i in range(0,len(data_wordlst)):                    #위의 가장 긴 리스트를 제외 한 나머지 원소들을 같은 길이로 맞춤(내용은 None으로)
     if data_wordlst[i]==biggerlst:
-        data_wordlst[i].append(0)
-
-
-    else :
+        data_wordlst[i].append(None)
+        bigger = len(data_wordlst[i])
+        biggerlst = data_wordlst[i]
+    elif data_wordlst[i]!=biggerlst:
         for j in range(len(data_wordlst[i]),bigger):
             data_wordlst[i].append(None)
-        data_wordlst[i].append(0)
+        data_wordlst[i].append(None)
 print('dlst:',data_wordlst,'\n','dlst[len-1]',data_wordlst[len(data_wordlst)-1])
 print(bigger)
-for k in range(bigger+1):
+for k in range(bigger):
     insert = {'쿠싱증후군': data_wordlst[0][k],
               '크론병':data_wordlst[1][k],
               '다발성 경화증':data_wordlst[2][k],
@@ -79,5 +79,5 @@ for k in range(bigger+1):
               '중증근무력증':data_wordlst[9][k]}
 
     disease = disease.append(insert, ignore_index=True)
-disease.to_csv('C:/Users/hw499/PycharmProjects/CapstoneDesign/disease.csv',index=False,sep=',',na_rep='NaN')
+disease.to_csv('C:/Users/hw499/PycharmProjects/CapstoneDesign/disease.csv',sep=',',na_rep='NaN')
 print(disease)

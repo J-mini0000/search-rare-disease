@@ -1,12 +1,12 @@
+#테스트용 파일
 from konlpy.tag import Kkma
 from itertools import chain
 import re
 import csv
-import pandas as pd
 
 kkma=Kkma()
 
-inS = "두통 복통"
+inS = '두통 및 치통이 있어요'
 inS_wordlst=inS.split()
 print(inS_wordlst)
 inS_worddata=[]
@@ -27,23 +27,15 @@ f = open('disease.csv', 'r', encoding='utf-8')
 crd = csv.reader(f)
 disease = []
 for exel in crd:
-    print(exel)
     disease.append(exel)
 f.close()
-print(len(disease))
-for i in range(0,len(inS_worddata)):
-    print("ins~[i]",inS_worddata[i])
-    for j in range(0,len(disease[0])-1): #1~386
-        for k in range(1,len(disease)-1): #1~10
-            print('%d'%(k),inS_worddata[i] == disease[k][j])
+
+for i in range(len(inS_worddata)):
+    print(len(inS_worddata))
+    for j in range(1,len(disease[0])): #11
+        for k in range(len(disease)): #385
             if (inS_worddata[i] == disease[k][j]):
-                disease[len(disease)-1][j]=int(disease[len(disease)-1][j])+1
-result = pd.DataFrame(disease)
-result.to_csv('C:/Users/hw499/PycharmProjects/CapstoneDesign/result.csv', index=False, sep=',', na_rep='NaN')
-print(disease)
-
-
-
+                disease[k+1][j] = disease[k+1][j]+1
 
 
 
