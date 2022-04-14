@@ -39,7 +39,7 @@ for i in range(0,len(inS_worddata)):
             if (inS_worddata[i] == disease[k][j]):
                 disease[len(disease)-1][j]=int(disease[len(disease)-1][j])+1
 result = pd.DataFrame(disease)
-result.to_csv('C:/Users/hw499/PycharmProjects/CapstoneDesign/result.csv', index=False, sep=',', na_rep='NaN')
+result.to_csv('./result.csv', index=False, sep=',', na_rep='NaN')
 print(disease)
 
 

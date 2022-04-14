@@ -1,6 +1,7 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import os
+dir = os.path.dirname(os.path.realpath(__file__)).replace('\\', '/') + '/'
 #쿠싱증후군
 html = urlopen("https://terms.naver.com/entry.naver?docId=6043716&cid=51362&categoryId=51362") #희귀질환정보
 bsObject = BeautifulSoup(html, "html.parser")
@@ -47,6 +48,6 @@ print(link1) #증상
 for link1 in bsObject.select('#detail02'):
     a.append(str(link1))
 
-with open(dir+"/SymptomFile/Cushing's syndrome symptomIFile.txt", "w", encoding='UTF=8') as symptomIFile:
+with open(dir+"/Cushing's syndrome symptomIFile.txt", "w", encoding='UTF=8') as symptomIFile:
     for text in a:
         symptomIFile.write(text)
