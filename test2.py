@@ -1,3 +1,20 @@
-from konlpy.tag import Kkma
-kkma = Kkma()	# 아마 설치가 잘 되지 않았다면 이 단계에서 에러가 났을 것이다.
-print(kkma.nouns(u'안녕하세요 Soo입니다'))
+import nltk
+
+grammar = nltk.CFG.fromstring("""
+S -> NP VP
+NP -> NN XSN JK | NN JK
+VP -> NP VP | VV EP EF
+NN -> '아이' | '케이크'
+XSN -> '들'
+JK -> '이' | '를'
+VV -> '먹'
+EP -> '었'
+EF -> '다'
+""")
+
+parser = nltk.ChartParser(grammar)
+
+sent = ['아이', '들', '이', '케이크', '를', '먹', '었', '다']
+
+for tree in parser.parse(sent):
+  print(tree)
