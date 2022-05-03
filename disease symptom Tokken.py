@@ -79,5 +79,5 @@ for k in range(bigger+1):
               '중증근무력증':data_wordlst[9][k]}
 
     disease = disease.append(insert, ignore_index=True)
-disease.to_csv('./disease.csv', index=False, sep=',', na_rep='NaN')
+disease.to_csv('./disease.csv', index=False, sep=',', na_rep='NaN', encoding='utf-8-sig')
 print(disease)

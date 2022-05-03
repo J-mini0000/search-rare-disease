@@ -41,7 +41,7 @@ for i in range(0,len(inS_worddata)):
                 disease[len(disease)-1][j]=int(disease[len(disease)-1][j])+1
 
 result = pd.DataFrame(disease)
-result.to_csv('./result.csv', index=False, sep=',', na_rep='NaN',header=None)
+result.to_csv('./result.csv', index=False, sep=',', na_rep='NaN',header=None, encoding='utf-8-sig')
 print('result:',result)
 
 
