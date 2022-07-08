@@ -51,3 +51,5 @@ for link1 in bsObject.select('#detail02'):
 with open(dir+"/Cushing's syndrome symptomIFile.txt", "w", encoding='UTF=8') as symptomIFile:
     for text in a:
         symptomIFile.write(text)
+
+

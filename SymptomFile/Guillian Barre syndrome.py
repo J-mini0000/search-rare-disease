@@ -2,7 +2,7 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import os
 dir = os.path.dirname(os.path.realpath(__file__)).replace('\\', '/') + '/'
-#라이증후군
+#길랭-바레증후군
 html = urlopen("https://terms.naver.com/entry.naver?docId=926651&cid=51007&categoryId=51007") #서울대학교병원 의학정보
 bsObject = BeautifulSoup(html, "html.parser")
 
