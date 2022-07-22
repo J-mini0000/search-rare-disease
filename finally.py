@@ -53,5 +53,5 @@ for i in range(0,4):
         a[i].append(None)
 print(final)
 final=pd.DataFrame(final)                                   #리스트 final을 데이터프레임 형태로 변환
-final.to_csv('./final.csv', index=False, sep=',', na_rep='NaN',header=None, encoding='utf-8-sig')
+final.to_csv('./final.csv', index= False, sep=',', na_rep='NaN',header=None, encoding='utf-8-sig')
 print("final: ", final)

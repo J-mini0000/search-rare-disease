@@ -27,6 +27,7 @@ print(link1) #증상
 for link1 in bsObject.select('#detail02'):
     a.append(str(link1))
 
+
 with open(dir+"/Crohn\'s disease.txt", "w", encoding='UTF=8') as symptomIFile:
     for text in a:
         symptomIFile.write(text)
