@@ -49,5 +49,4 @@ result.to_csv('./result.csv', index=False, sep=',', na_rep='NaN',header=None, en
 print('result:',result)
 
 print(
-
 )
