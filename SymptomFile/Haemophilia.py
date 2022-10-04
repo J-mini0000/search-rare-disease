@@ -27,7 +27,7 @@ html = urlopen(
 bsObject = BeautifulSoup(html, "html.parser")
 print(link1) #증상
 for link1 in bsObject.select('#detail02'):
-    a.append(str(link1))
+    a.append(str(link1.text))
 
 with open(dir+"/Haemophilia.txt", "w", encoding='UTF=8') as symptomIFile:
     for text in a:

@@ -24,7 +24,7 @@ html = urlopen(
 )# 질병 관리청 헬프라인
 bsObject = BeautifulSoup(html, "html.parser")
 for link1 in bsObject.select('#detail02'):
-    a.append(str(link1))
+    a.append(str(link1.text))
 
 with open(dir+"/Idiopathic pulmonary fibrosis.txt", "w", encoding='UTF=8') as symptomIFile:
     for text in a:

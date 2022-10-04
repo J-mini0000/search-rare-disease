@@ -23,21 +23,21 @@ html = urlopen(
 )# 질병 관리청 헬프라인(비가역적 확장성 심근병증)
 bsObject = BeautifulSoup(html, "html.parser")
 for link1 in bsObject.select('#detail02'):
-    a.append(str(link1))
+    a.append(str(link1.text))
 
 html = urlopen(
     "https://helpline.kdca.go.kr/cdchelp/ph/rdiz/selectRdizInfDetail.do?menu=A0100&pageIndex=1&fixRdizInfTab=&rdizCd=RA201810524&schKor=&schEng=&schCcd=&schGuBun=dizNm&schText=%EC%8B%AC%EA%B7%BC%EB%B3%91%EC%A6%9D&schSort=kcdCd&schOrder=desc"
 )# 질병 관리청 헬프라인(폐색성 확장성 심근병증)
 bsObject = BeautifulSoup(html, "html.parser")
 for link1 in bsObject.select('#detail02'):
-    a.append(str(link1))
+    a.append(str(link1.text))
 
 html = urlopen(
     "https://helpline.kdca.go.kr/cdchelp/ph/rdiz/selectRdizInfDetail.do?menu=A0100&pageIndex=1&fixRdizInfTab=&rdizCd=RA201810516&schKor=&schEng=&schCcd=&schGuBun=dizNm&schText=%EC%8B%AC%EA%B7%BC%EB%B3%91%EC%A6%9D&schSort=kcdCd&schOrder=desc"
 )# 질병 관리청 헬프라인(비폐색성 확장성 심근병증)
 bsObject = BeautifulSoup(html, "html.parser")
 for link1 in bsObject.select('#detail02'):
-    a.append(str(link1))
+    a.append(str(link1.text))
 
 with open(dir+"/dilated cardiomyopathy.txt", "w", encoding='UTF=8') as symptomIFile:
     for text in a:

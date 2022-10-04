@@ -1,10 +1,9 @@
 <h3 class="stress" id="TABLE_OF_CONTENT3">증상</h3>
 <p class="txt">주 증상은 운동시 호흡곤란과 <a href="/entry.naver?docId=927462&amp;ref=y" onclick="clickcr(this, 'bdk.creference', '', '', event);">만성 기침</a>으로, <a href="/entry.naver?docId=927458&amp;ref=y" onclick="clickcr(this, 'bdk.creference', '', '', event);">청색증</a>(<a href="/entry.naver?docId=927457&amp;ref=y" onclick="clickcr(this, 'bdk.creference', '', '', event);">저산소증</a>에 의해 입술주변이 파랗게 질리는 현상), <a href="/entry.naver?docId=927455&amp;ref=y" onclick="clickcr(this, 'bdk.creference', '', '', event);">곤봉지</a>(만성적인 저산소증에 의해 손가락 끝이 둥글게 되는 현상) 등이 동반될 수 있다.  폐 섬유화가 진행될수록 이런 현상들이 심해지며 만성적인 호흡곤란과 저산소증을 겪게 된다. </p>
-<dl class="on" id="detail02">
-<dt>
-<span>증상 <strong>Symptoms</strong></span>
-<em><a class="rdinfotrg" href="#Symptoms_info"><img alt="상세내용닫기" src="/cdchelp/img/contents/rdinfo_btn_up.jpg"/></a></em>
-</dt>
-<dd class="edtTxt" style="display:none;">&lt;p&gt;대부분 만성적으로 1-2년에 걸쳐 서서히 진행하는 마른 기침과 운동시 호흡곤란이 주 증상이고, 병이 진행할수록 호흡곤란이 심해져 일상생활도 힘들게 됩니다. 말기에 폐동맥 고혈압이 합병되면 심장에 부담이 가서 누우면 심해지는 호흡곤란과 전신부종 등의 우심실 부전증상이 나타납니다. 진찰상 양쪽 폐의 아랫 부위에서 특징적인 흡기말 수포음이 들리고, 말단 곤봉지가 관찰되기도 하며, 말기에는 간비대, 말초부종 등의 우심부전 소견이 관찰됩니다.&lt;/p&gt;
-</dd>
-</dl>
+
+
+증상 Symptoms
+
+
+<p>대부분 만성적으로 1-2년에 걸쳐 서서히 진행하는 마른 기침과 운동시 호흡곤란이 주 증상이고, 병이 진행할수록 호흡곤란이 심해져 일상생활도 힘들게 됩니다. 말기에 폐동맥 고혈압이 합병되면 심장에 부담이 가서 누우면 심해지는 호흡곤란과 전신부종 등의 우심실 부전증상이 나타납니다. 진찰상 양쪽 폐의 아랫 부위에서 특징적인 흡기말 수포음이 들리고, 말단 곤봉지가 관찰되기도 하며, 말기에는 간비대, 말초부종 등의 우심부전 소견이 관찰됩니다.</p>
+

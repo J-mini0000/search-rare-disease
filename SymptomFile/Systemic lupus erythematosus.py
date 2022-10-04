@@ -24,9 +24,9 @@ html = urlopen(
 bsObject = BeautifulSoup(html, "html.parser")
 print(link1) #증상
 for link1 in bsObject.select('#detail02'):
-    a.append(str(link1))
+    a.append(str(link1.text))
 for link2 in bsObject.select('table.dic_veiwT tbody tr td pre'):
-    a.append(str(link2))
+    a.append(str(link2.text))
 
 with open(dir+"/Systemic lupus erythematosus.txt", "w", encoding='UTF=8') as symptomIFile:
     for text in a:
