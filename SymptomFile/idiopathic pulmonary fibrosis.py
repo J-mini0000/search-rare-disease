@@ -10,7 +10,7 @@ bsObject = BeautifulSoup(html, "html.parser")
 for link1 in bsObject.find_all('h3',{"id":"TABLE_OF_CONTENT3"}):
     print(link1) #증상
 for link2 in bsObject.find_all('h3',{"id":"TABLE_OF_CONTENT4"}):
-    print(link2) #
+    print(link2) #진단/검사
 
 symptomI= str(bsObject).index(str(link1)) #증상인덱스 변수값 할당
 causationI= str(bsObject).index(str(link2)) #원인인덱스 변수값 할당
