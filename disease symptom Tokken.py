@@ -5,14 +5,17 @@ import pandas as pd
 
 kkma=Kkma()
 pd.set_option('display.max_rows', None)
-
+stopwords = ['랫','게','건','루','기와','만','타','나중','이외','년','랭','만일','만','르','마지막','것','의','가','이','은','들','는','좀','잘','걍','과','도','를','으로','로','자','에','와','한','하다','을','그','다','니','및','하면서',"경우","다",'니','그','과','에도','오히려','또한','또','거나','때문','듯이','니다','되','데','위의']
 def dataPrep(openfile):
     sentence = []
     nouns = []
     for i in openfile:
-        sentence.append(re.sub('[^A-Za-z가-힣]', '', i))
-    for i in sentence:
-        nouns.append(kkma.nouns(i))  # 명사분리후 리스트에 추가
+        sentence.append(re.sub('[^A-Za-z가-힣]', ' ', i))
+    for j in sentence:
+        # 명사분리 및 불용어 처리
+        token=kkma.nouns(j)
+        token=[t for t in token if t not in stopwords]
+        nouns.append(token)
     b = list(chain(*nouns))  # 1차원 list
     data_wordlst.append(list(set(b))) #전처리된 증상 Data 추가
     # data_wordlst=[data_word,data_word1,data_word2,data_word3...]
@@ -81,3 +84,4 @@ for k in range(bigger+1):
     disease = disease.append(insert, ignore_index=True)
 disease.to_csv('./disease.csv', index=False, sep=',', na_rep='NaN', encoding='utf-8-sig')
 print(disease)
+

@@ -30,7 +30,7 @@ for link4 in bsObject.select('div.contents table.dic_viewT tbody'):
         a.append(str(link4.text)[i])
 
 
-print(a)
+
 with open(dir+"/Systemic lupus erythematosus.txt", "w", encoding='UTF=8') as symptomIFile:
     for text in a:
         symptomIFile.write(text)
